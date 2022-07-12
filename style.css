@@ -1,0 +1,164 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: inline-block;
+font-family: 'Montserrat', sans-serif;
+}
+
+main{
+display: inline-block;
+position: absolute;
+top: 0;
+}
+
+a{
+font-size: 24px;
+line-height: 29.26px;
+color: #989D9C;
+margin: 44px 23px auto 23px;
+font-weight: 600;
+position: relative;
+top: 10px;
+}
+
+button{
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+margin: 44px 23px auto 23px;
+font-weight: 600;
+background: #665AE1;
+width: 130px;
+height: 41px;
+border-radius: 20.5px;
+padding: 6px 21px 6px 22px;
+position: relative;
+}
+
+.left{
+position: relative;
+
+}
+
+img{
+width: 568px;
+height: 500px;
+position: absolute;
+top: 120px;
+}
+
+h1{
+display: block;
+color: #515151;
+font-weight: 900;
+font-size: 100px;
+line-height: 122px;
+}
+
+h2{
+display: block;
+font-weight: 500;
+font-size: 58px;
+line-height: 71px;
+color: #515151;
+}
+
+p{
+display: block;
+font-weight: 400px;
+font-size: 24px;
+color: #848484;
+width: 515px;
+margin-top: 70px;
+}
+
+.explore{
+background: #85af2a;
+width:239px;
+height:64px;
+border-radius: 20.5px;
+color: #000000;
+font-weight: 700;
+font-size: 28px;
+}
+
+.right{
+display: inline-block;
+position: absolute;
+left: 750px;
+top: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    div{
+        height: 100vh;
+        width: 50vw;
+    }
+
+    main{ 
+        display: none;
+    }
+
+    img{
+    width: 354px;
+    height: 254.24px;
+    position: absolute;
+    top: 100.72px;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    }
+
+
+    h1{
+    width: 263px;
+    height: 52px;
+    position: absolute;
+    top: 241px;
+    left: -309%;
+    right: 205%;
+    bottom: 0%;
+    text-align: center;
+    color: #515151;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    
+   
+    }
+
+    
+    h2{
+    width: 232px;
+    height: 37px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #515151;
+    position: relative;
+    top: 318px;
+    left: -299%;
+    right: 205%;
+    bottom: 0%;
+    }
+
+    p{
+    display: none;
+    }
+  
+    .explore{
+   
+    width:239px;
+    height:64px;
+    position: relative;
+    top: 318px;
+    left: -315%;
+    right: 205%;
+    bottom: 0%;
+    
+    }
+        
+}
